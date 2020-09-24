@@ -1,5 +1,10 @@
 
-
+$(window).on( "load" , function () {
+    setTimeout ( function () {
+        $(".loader-section").fadeOut("slow");
+    } , 3000)
+    
+});
 
 $(".btn").click(function () {
     var height = $(".height-number").val();
@@ -10,14 +15,14 @@ $(".btn").click(function () {
         $(".result").text("Fill all the values ... ");
         setTimeout ( function () {
             $(".result").text("");
-        } , 3000);
+        } , 5000);
     } else if ( height.trim() === "0"|| weight.trim() === "0" ) {
         $(".result").text("0 is  ot a valid Value " );
         setTimeout ( function () {
             $(".result").text("");
             $(".height-number").val(``);
             $(".weight-number").val(``);
-        } , 3000);
+        } , 5000);
     } else {
 
         var bmi = weight/(height*height);
@@ -28,7 +33,7 @@ $(".btn").click(function () {
             $(".result").text("");
             $(".height-number").val(``);
             $(".weight-number").val(``);
-        } , 3000);
+        } , 5000);
     }
 
     if (bmi < 18.5 ) {
@@ -45,7 +50,7 @@ $(".btn").click(function () {
 
     setTimeout ( function () {
         $("img").attr("src" , "");
-    } , 3000);
+    } , 5000);
 
 
 });
