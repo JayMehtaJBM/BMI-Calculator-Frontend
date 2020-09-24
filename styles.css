@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43)); ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 4rem 0 4rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #dadada;
+    font-size: 1rem;
+}
+
+.bmi {
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 2rem;
+    margin: 2rem 0 0;
+    padding: 5% 7% 3%;
+    background-color: #2d2d2d;
+}
+
+.height {
+    border-radius: 1.5rem;
+    margin: 1rem 0 0; 
+}
+
+
+input {
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 24px;
+    color: 000;
+    display:  inline-block;
+    font-size: 13.3333px;
+    font-weight:  500;
+    gap:normal;
+    margin: 50px 0px 0px;
+    padding: 8px;
+}
+
+::placeholder {
+  color: #000;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: .5rem 0 2rem ;
+}
+
+.btn {
+    border: none;
+    box-sizing: border-box;
+    padding: 0.5rem 0.7rem;
+    margin: 30px 0 0 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background: #ff464e;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover {
+   background: #fff;
+   color: #ff464e;
+   font-weight: 500;
+}
+
+footer {
+    margin-top: 50px;;
+}
