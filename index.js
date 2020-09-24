@@ -7,7 +7,7 @@ $(".btn").click(function () {
     
 
     if (height.trim() === "" || weight.trim() === "") {
-        $(".result").text("Fill all the values ... Only Number Are Allowed");
+        $(".result").text("Fill all the values ... ");
         setTimeout ( function () {
             $(".result").text("");
         } , 3000);
